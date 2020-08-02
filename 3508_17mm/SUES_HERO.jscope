@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="-1" JTAG_DRPre="-1" IP="" TargetDevice="Cortex-M4" TargetInterface="SWD" InterfaceSpeed="50000" />
+            </JLink>
+            <ScriptFile Name="C:\Users\Administrator\Desktop\SUES_HEROv3.0\SUES_HERO.jscope\unspecified" />
+            <ElfFile Name="C:\Users\Administrator\Desktop\SUES_HEROv3.0\Project\Objects\infantry.axf" />
+            <DataFile Name="" />
+            <RawFile Name="" />
+            <Scope>
+                <Options TimeResolutionUs="2000000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="INS_Angle[0]" Address="0x20000884" Type="float" TypeID="1" Size="4" GraphColorRed="255" GraphColorGreen="215" GraphColorBlue="0" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="4" ShowInGraph="0" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="1" MaxValue="2" File="..\user\APP\INS_task\INS_task.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="INS_Angle[1]" Address="0x20000888" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="8" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="1" MaxValue="2" File="..\user\APP\INS_task\INS_task.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="INS_Angle[2]" Address="0x2000088C" Type="float" TypeID="1" Size="4" GraphColorRed="102" GraphColorGreen="102" GraphColorBlue="178" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="12" ShowInGraph="0" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="1" MaxValue="1" File="..\user\APP\INS_task\INS_task.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="Angle[0]" Address="0x200013A4" Type="float" TypeID="1" Size="4" GraphColorRed="160" GraphColorGreen="32" GraphColorBlue="240" YMinSampled="1" YMaxSampled="2" YAvgSampled="1" Offset="16" ShowInGraph="0" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="5" MaxValue="10" File="..\user\APP\LX_IMU\LX_IMU.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="Angle[1]" Address="0x200013A8" Type="float" TypeID="1" Size="4" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="20" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="1" MaxValue="2" File="..\user\APP\LX_IMU\LX_IMU.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="Angle[2]" Address="0x200013AC" Type="float" TypeID="1" Size="4" GraphColorRed="0" GraphColorGreen="191" GraphColorBlue="255" YMinSampled="0" YMaxSampled="0" YAvgSampled="0" Offset="24" ShowInGraph="0" ACCoupling="0" YOffset="200" IsAutoConfig="1" YResolution="1" MaxValue="1" File="..\user\APP\LX_IMU\LX_IMU.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>
